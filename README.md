@@ -7,7 +7,7 @@ This deployer will generate `.conan_ycm_path` in your project root folder, and `
 ## Installation
 
 ```bash
-$ conan config install https://github.com/samuel-emrys/conan-ycm-deployer.git
+$ conan config install https://github.com/samuel-emrys/conan-ycm-deployer.git --type git
 ```
 
 ## Usage
