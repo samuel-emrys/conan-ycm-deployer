@@ -62,7 +62,7 @@ with open(".conan_ycm_path") as f:
     conan_ycm_path = pathlib.Path(contents)
 
 if not conan_ycm_path.exists():
-    raise Exception(f"{conan_ycm_path} doesn't exist!")
+    raise Exception(f"{{conan_ycm_path}} doesn't exist!")
 
 conan_flags = json.loads(open(conan_ycm_path / "conan_ycm_flags.json", "r").read())
 
